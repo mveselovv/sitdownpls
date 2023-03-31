@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SitDownPls</title>
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header class="header header-maps">
+    <div class="header-top">
+      <div class="container header-top__container">
+        <div class="header-top__left">
+          <div class="header-region">
+            <span class="header-region__title">Ваш регион:</span>
+            <div class="header-select">
+              <button class="header-select__title">
+                Москва
+                <svg height="8" width="13" class="style-icon-arrow-region">
+                  <use xlink:href="../sitdownpls/image/svg/sprites.svg#arrow-region"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="header-top__phone">
+            <a href="tel:+74958854547" class="header-top__tel color-orange">
+              <svg height="22" width="32" class="style-icon-phone">
+                <use xlink:href="../sitdownpls/image/svg/sprites.svg#phone"></use>
+              </svg>
+              +7 (495) 885-45-47
+            </a>
+          </div>
+        </div>
+        <div class="header-top__right" id="submenu">
+          <ul class="header-top__nav">
+            <li class="header-top__items">
+              <a href="#" class="header-top__item color-grey">
+                О компании
+              </a>
+            </li>
+            <li class="header-top__items">
+              <a href="#" class="header-top__item color-grey">
+                Гарантия и возврат
+              </a>
+            </li>
+            <li class="header-top__items">
+              <a href="#" class="header-top__item color-grey">
+                Корпоративным клиентам
+              </a>
+            </li>
+            <li class="header-top__items">
+              <a href="#" class="header-top__item color-grey">
+                Дизайн-решение
+              </a>
+            </li>
+          </ul>
+          <div class="burger-icon">
+            <button class="header-bottom__personal">
+              <svg height="29" width="28" class="style-icon-personal">
+                <use xlink:href="image/svg/sprites.svg#personal"></use>
+              </svg>
+            </button>
+            <button class="header-bottom__basket">
+              <svg height="28" width="41" class="style-icon-basket">
+                <use xlink:href="image/svg/sprites.svg#basket"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container header-middle__container">
+        <div class="header-middle__logotype">
+          <button class="burger">
+            <svg height="24" width="24" class="style-icon-burger">
+              <use xlink:href="image/svg/sprites.svg#burger"></use>
+            </svg>
+          </button>
+          <a href="/" class="logotype-image">
+            <svg height="27" width="187">
+              <use xlink:href="image/svg/sprites.svg#logotype"></use>
+            </svg>
+          </a>
+          <div class="burger-icon">
+            <button class="header-bottom__personal">
+              <svg height="29" width="28" class="style-icon-personal">
+                <use xlink:href="image/svg/sprites.svg#personal"></use>
+              </svg>
+            </button>
+            <button class="header-bottom__basket">
+              <svg height="28" width="41" class="style-icon-basket">
+                <use xlink:href="image/svg/sprites.svg#basket"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="burger-menu" class="header-middle__list">
+          <nav class="header-middle__nav">
+            <button id="burger-closed">
+              <svg height="24" width="24" class="style-icon-closed">
+                <use xlink:href="image/svg/sprites.svg#modal-close"></use>
+              </svg>
+            </button>
+            <ul class="header-middle__items">
+              <li class="header-middle__item">
+                <a href="directory.html" class="header-middle__link color-grey">
+                  Каталог
+                </a>
+              </li>
+              <li class="header-middle__item">
+                <a href="#" class="header-middle__link color-grey">
+                  Магазины
+                </a>
+              </li>
+              <li class="header-middle__item">
+                <a href="#" class="header-middle__link color-grey">
+                  Шоу-рум
+                </a>
+              </li>
+              <li class="header-middle__item">
+                <a href="#" class="header-middle__link color-grey">
+                  Доставка и оплата
+                </a>
+              </li>
+              <li class="header-middle__item">
+                <a href="#" class="header-middle__link color-grey">
+                  Дисконт
+                </a>
+              </li>
+              <li class="header-middle__item">
+                <a href="contact.html" class="header-middle__link color-grey">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container header-bottom__container">
+        <div class="header-bottom__search">
+          <form id="line" class="header-bottom__form">
+            <input type="search" aria-label="Строка поиска" id="lines" placeholder="Я хочу купить..." class="header-bottom__input common-input">
+            <label for="lines"></label>
+            <button type="submit" class="header-bottom__btn">
+              <svg height="32" width="32">
+                <use xlink:href="image/svg/sprites.svg#search-top"></use>
+              </svg>
+            </button>
+          </form>
+          <div class="header-category">
+            <button type="button" class="header-category__title" aria-label="Категории мебели" data-default="Категория">Категория</button>
+            <ul class="header-category__block" aria-label="Открыт список с категориями">
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Диваны</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Кресла</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Пуфы</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Кровати</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Тумбы</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Комоды</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Стулья</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Столы</button>
+              </li>
+              <li class="header-bottom__items">
+                <button class="header-bottom__item color-grey">Аксессуары</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-bottom__office">
+          <button class="burger">
+            <svg height="24" width="24" class="style-icon-burger">
+              <use xlink:href="image/svg/sprites.svg#burger"></use>
+            </svg>
+          </button>
+          <div class="burger-icon">
+            <button class="header-bottom__personal">
+              <svg height="29" width="28" class="style-icon-personal">
+                <use xlink:href="image/svg/sprites.svg#personal"></use>
+              </svg>
+            </button>
+            <button class="header-bottom__basket">
+              <svg height="28" width="41" class="style-icon-basket">
+                <use xlink:href="image/svg/sprites.svg#basket"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="maps">
+      <div class="container">
+        <div class="directory-navigation">
+          <ul class="directory-navigation__list">
+            <li class="directory-navigation__items">
+              <a href="index.html" class="directory-navigation__link">Главная</a>
+            </li>
+            <li class="directory-navigation__items">
+              <a href="#" class="directory-navigation__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <h2 class="section-title">Контакты</h2>
+        <form class="maps-form">
+          <input type="text" class="maps-form__input common-input" placeholder="Поиск магазина">
+          <button class="maps-form__btn purple-fill">Поиск</button>
+        </form>
+        <div class="places">
+          <div class="items">
+            <strong>test</strong>
+            <div class="item" data-id="1">SitDownPls на Покровке</div>
+            <div class="item" data-id="2">SitDownPls на Солянке</div>
+          </div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-first">
+        <a href="/" class="footer-first__logotype">
+          <svg height="27" width="187">
+            <use xlink:href="image/svg/sprites.svg#logotype"></use>
+          </svg>
+        </a>
+        <ul class="footer-first__social">
+          <li class="footer-first__items">
+            <a href="#" class="footer-first__facebook social-icons">
+              <svg height="30" width="30" class="style-icon-social">
+                <use xlink:href="image/svg/sprites.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-first__items">
+            <a href="#" class="footer-first__vk social-icons">
+              <svg height="30" width="30" class="style-icon-social">
+                <use xlink:href="image/svg/sprites.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-first__items">
+            <a href="#" class="footer-first__instagram social-icons">
+              <svg height="30" width="30" class="style-icon-social">
+                <use xlink:href="image/svg/sprites.svg#inst"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-second">
+        <h3 class="block-title">О нас</h3>
+        <ul class="block-list">
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">О компании</a>
+          </li>
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Блог</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <h3 class="block-title">Услуги</h3>
+        <ul class="block-list">
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Доставка</a>
+          </li>
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Рассрочка и кредит</a>
+          </li>
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Сборка и установка</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <h3 class="block-title">Связь с нами</h3>
+        <ul class="block-list">
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Обратная связь</a>
+          </li>
+          <li class="block-list__item">
+            <a href="contact.html" class="block-list__link color-grey">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-fifth">
+        <h3 class="block-title">Сотрудничество</h3>
+        <ul class="block-list">
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Поставщикам</a>
+          </li>
+          <li class="block-list__item">
+            <a href="partnership.html" class="block-list__link color-grey">Оптовикам</a>
+          </li>
+          <li class="block-list__item">
+            <a href="#" class="block-list__link color-grey">Карьера</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-line">
+      <span class="footer-line__text text-grey">SDP&reg;&nbsp;&nbsp;2011-2021</span>
+    </div>
+  </footer>
+  <script defer="defer" src="js/jquery-1.12.4.min.js"></script>
+  <script defer="defer" src="js/jquery-ui.min.js"></script>
+  <script defer="defer" src="https://api-maps.yandex.ru/2.1/?apikey=0b75212d-13bd-482a-ad8c-bc5fc079cc9c&lang=ru_RU"></script>
+  <script defer="defer" src="js/maps.js"></script>
+  <script defer="defer" src="js/selects.js"></script>
+  <script defer="defer" src="js/burger.js"></script>
+  <script defer="defer" src="js/header.js"></script>
+</body>
+</html>

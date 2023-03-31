@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("DOMContentLoaded",(function(){var t=document.querySelector(".products-more"),e=document.querySelectorAll(".products-list__item:nth-last-child(-n+2)");t.addEventListener("click",(function(){e.forEach((function(t){t.classList.toggle("active-product")}))}))}));
